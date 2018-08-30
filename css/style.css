@@ -1,0 +1,213 @@
+*{
+    margin-top: 0.9em;
+    margin-left: 0.6em;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha', cursive;
+}
+
+.container{
+    display: flex;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+.main{
+    flex-direction: column;
+}
+.foto{
+    height: 11em;
+    width: 16em;
+    display: block;
+}
+.foto img{
+    height: 205px;
+    width: 222px;
+    border-radius: 103px;
+    margin-left: 3.3em;
+        }
+.nome h1{
+    width: 300px;
+    font-family: 'Diplomata', cursive;
+    font-size: 0.5em;
+    margin-top: 2em;
+    color: #7F1D1D;
+    align-self: left;
+    text-align: center;
+
+}
+.web{
+    margin-left: -0.7em;
+}
+.web h2{
+    font-family: 'Diplomata', cursive;
+    font-size: 1.6em;
+    color: #114C4C;
+    margin-left: 1em;
+}
+
+.nome{
+    font-size: 68px;
+    margin-left: 10px
+}
+.menu ul{
+    margin-left: 1em;
+}
+.menu ul li{
+    list-style-type: none;
+
+}
+.menu img{
+    height: 70px;
+    width: 70px;
+}
+.menu ul li h2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: -1px;
+    font-size: 0.7em;
+}
+.coluna{
+    margin-top: 0em;
+}
+.sobremim{
+    width: 39em;
+    margin-left: 4em;
+    margin-top: 3em;
+}
+.sobremim h2{
+    font-size: 2.2em;
+}
+.sobremim p{
+    font-size: 1.5em;
+}
+.sobremim a{
+
+    color: rgb(37, 37, 37)
+    
+}
+.academica{
+    margin-top: 3em;
+    margin-left:4em;
+}
+.academica h2{
+    font-size: 2.2em;
+}
+.academica img{
+    width: 1em;
+    height: 1em;
+}
+.academica ul{
+    list-style-type: none;
+    margin-left: -1em;
+    display: flex;
+
+}
+.academica ul li{
+    display: flex;
+    font-size: 1.3em;
+    padding: 0.5em;
+}
+.soft{
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+.soft_skills{
+    display: flex;
+    margin-left: -1em;
+}
+.soft h2{
+    font-size: 2.2em;
+}
+.soft p{
+    text-align: center;
+    font-size: 1.3em;
+}
+.soft_itens {
+    display: flex;
+    
+}
+.hab ul li{
+    list-style-type: none;
+    
+}
+.hab{
+    margin-top: 3em;
+    margin-left: 4em;
+}
+.hab-itens{
+    display: flex;
+    margin-left: -1.5em;
+    text-align: center;
+}
+.hab h2{
+    font-size: 2.2em;
+}
+.hab-itens p{
+    font-size: 1.3em;
+}
+.f2{
+    margin-left: 9.5em;
+}
+@media screen and (max-width: 430px){
+    .container{
+        flex-direction: column;
+        margin-left: -1vh;
+    }
+    .pai{
+        flex-direction: column;
+        text-align: center;
+    }
+    .foto{
+        margin-left: 3vh;
+    }
+    .web{
+        margin-left: -5vh;
+    }
+    .menu{
+        display: none;
+    }
+    .coluna{
+        display: none;
+    }
+    .sobremim{
+        flex-direction: column;
+        margin-left: 1vh;
+        text-align: justify;
+        max-width: 55vh;
+    }
+    .sobremim h2{
+        margin-left: 1vh;
+    }
+    .sobremim p{
+        text-align: justify;
+        width: 49vh;
+    }
+    .academica{
+        margin-left: 1vh;
+    }
+    .soft{
+        margin-left: 1vh;
+    }
+    .soft h2{
+        margin-left: 8vh;
+    }
+    .soft_itens{
+        flex-direction: column;
+        margin-left: 14vh;
+        
+    }
+    .hab h2{
+        margin-left: 1vh;
+    }
+    .hab-itens{
+        flex-direction: column;
+        margin-left: -19vh; 
+    }
+    .f2{
+        margin-left: 1vh;
+    }
+}
+
